@@ -1,7 +1,5 @@
-class CfgPatches
-{
-	class ace_compat_jm_fot
-	{
+class CfgPatches {
+	class ace_compat_jm_fot {
 		name = "ACE3 JM's Fall of the Titans Compatability";
 		units[] = {};
 		weapons[] = {};
