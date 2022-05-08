@@ -65,7 +65,6 @@ class CfgAmmo {
 	class M_Titan_AA;
 	class JMSFALL_M_Archer_AT_F: M_Titan_AT {
 		//? add ace_vehicle_damage_incendiary
-		//ToDo: 
 		class ace_missileguidance {
 			enabled = 1;
 
