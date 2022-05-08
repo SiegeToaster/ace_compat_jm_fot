@@ -221,6 +221,9 @@ class CfgWeapons {
 
 
 	// ========== Weapons ==========
+	// ToDo: find ACE_RailHeightAboveBore values where applicable
+
+	// pistols
 	class Pistol;
 	class Pistol_Base_F: Pistol {};
 	class JMSFALL_P2015_Pistol: Pistol_Base_F {
@@ -232,99 +235,63 @@ class CfgWeapons {
 		ACE_barrelLength = 150;
 	};
 
+	// rifles
 	class Rifle_Base_F;
 	class JMSFALL_Rifle_Base: Rifle_Base_F {};
 	class JMSFALL_car101Rifle: JMSFALL_Rifle_Base {
 		ACE_barrelTwist = 177.8;
 		ACE_barrelLength = 280;
-		ACE_overheating_mrbs = 3000;
-		ACE_overheating_slowdownFactor = 1;
-		ACE_overheating_allowSwapBarrel = 0;
-		ACE_overheating_dispersion = 0.75;
-		ACE_arsenal_hide = 0;
-		ACE_twistDirection = 1;
-		ace_overheating_closedBolt = 0;
-	}; // Make sure that the grey rifle also take these settings
+	};
+	class JMSFALL_car101Rifle_grey: JMSFALL_car101Rifle {};
+
 	class JMSFALL_m1a3Rifle: JMSFALL_Rifle_Base {
 		ACE_barrelTwist = 201.3;
 		ACE_barrelLength = 300;
-		ACE_overheating_mrbs = 2500;
-		ACE_overheating_slowdownFactor = 1;
-		ACE_overheating_allowSwapBarrel = 0;
-		ACE_overheating_dispersion = 0.75;
-		ACE_arsenal_hide = 0;
-		ACE_twistDirection = 1;
-		ace_overheating_closedBolt = 0;
-	}; // make sure that the gray/black rifles also take these settings
+	};
+	class JMSFALL_m1a3Rifle_black: JMSFALL_m1a3Rifle {};
+	class JMSFALL_m1a3Rifle_grey: JMSFALL_m1a3Rifle {};
+
 	class JMSFALL_r97Rifle: JMSFALL_Rifle_Base {
 		ACE_barrelTwist = 201.3;
 		ACE_barrelLength = 290;
-		ACE_overheating_mrbs = 3000;
-		ACE_overheating_slowdownFactor = 1;
-		ACE_overheating_allowSwapBarrel = 0;
-		ACE_overheating_dispersion = 0.75;
-		ACE_arsenal_hide = 0;
-		ACE_twistDirection = 1;
-		ace_overheating_closedBolt = 0;
-	}; // make sure that the black/blue rifles also take these settings
+	};
+	class JMSFALL_r97Rifle_black: JMSFALL_r97Rifle {};
+	class JMSFALL_r97Rifle_blue: JMSFALL_r97Rifle {};
+
 	class JMSFALL_r101Rifle: JMSFALL_Rifle_Base {
 		ACE_barrelTwist = 215.6;
 		ACE_barrelLength = 475;
-		ACE_overheating_mrbs = 2000;
-		ACE_overheating_slowdownFactor = 1;
-		ACE_overheating_allowSwapBarrel = 0;
-		ACE_overheating_dispersion = 0.75;
-		ACE_arsenal_hide = 0;
-		ACE_twistDirection = 1;
-		ace_overheating_closedBolt = 0;
-	}; // make sure that the black/blue/brown/white rifles also take these settings
+	};
+	class JMSFALL_r101Rifle_black: JMSFALL_r101Rifle {};
+	class JMSFALL_r101Rifle_blue: JMSFALL_r101Rifle {};
+	class JMSFALL_r101Rifle_brown: JMSFALL_r101Rifle {};
+	class JMSFALL_r101Rifle_white: JMSFALL_r101Rifle {};
+
 	class JMSFALL_V47flatlineRifle: JMSFALL_Rifle_Base {
 		ACE_barrelTwist = 215.6;
 		ACE_barrelLength = 485;
-		ACE_overheating_mrbs = 2000;
-		ACE_overheating_slowdownFactor = 1;
-		ACE_overheating_allowSwapBarrel = 0;
-		ACE_overheating_dispersion = 0.75;
-		ACE_arsenal_hide = 0;
-		ACE_twistDirection = 1;
-		ace_overheating_closedBolt = 0;
-	}; // make sure that the black rifle also takes these settings
+	};
+	class JMSFALL_V47flatlineRifle_black: JMSFALL_V47flatlineRifle {};
 
+	// long rifles
 	class Rifle_Long_Base_F;
 	class JMSFALL_SniperRifle_Base: Rifle_Long_Base_F {};
 	class JMSFALL_d101Rifle: JMSFALL_SniperRifle_Base {
 		ACE_barrelTwist = 230;
 		ACE_barrelLength = 508;
-		ACE_overheating_mrbs = 1750;
-		ACE_overheating_slowdownFactor = 1;
-		ACE_overheating_allowSwapBarrel = 0;
-		ACE_overheating_dispersion = 0.75;
-		ACE_arsenal_hide = 0;
-		ACE_twistDirection = 1;
-		ace_overheating_closedBolt = 1;
-	}; // make sure that the blue rifle also takes these settings
+	};
+	class JMSFALL_d101Rifle_blue: JMSFALL_d101Rifle {};
+
 	class JMSFALL_KraberAPRifle: JMSFALL_SniperRifle_Base {
 		ACE_barrelTwist = 482.7;
 		ACE_barrelLength = 1100;
-		ACE_overheating_mrbs = 5000;
-		ACE_overheating_slowdownFactor = 1;
-		ACE_overheating_allowSwapBarrel = 0;
-		ACE_overheating_dispersion = 0.75;
-		ACE_arsenal_hide = 0;
-		ACE_twistDirection = 1;
-		ace_overheating_closedBolt = 1;
 	};
+
 	class JMSFALL_spitfireRifle: Rifle_Long_Base_F {
 		ACE_barrelTwist = 230;
 		ACE_barrelLength = 485;
-		ACE_overheating_mrbs = 1750;
-		ACE_overheating_slowdownFactor = 1;
-		ACE_overheating_allowSwapBarrel = 0;
-		ACE_overheating_dispersion = 0.75;
-		ACE_arsenal_hide = 0;
-		ACE_twistDirection = 1;
-		ace_overheating_closedBolt = 0;
-	}; // make sure that the hex rifle also takes these settings
+	};
+	class JMSFALL_spitfireRifle_hex: JMSFALL_spitfireRifle {};
 
 	class Launcher;
 	class Launcher_Base_F: Launcher {};
