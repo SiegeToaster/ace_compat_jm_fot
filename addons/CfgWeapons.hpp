@@ -226,19 +226,10 @@ class CfgWeapons {
 	class JMSFALL_P2015_Pistol: Pistol_Base_F {
 		ACE_barrelTwist = 406;
 		ACE_barrelLength = 127;
-		ACE_twistDirection = 1;
-		ace_overheating_closedBolt = 1;
 	};
 	class JMSFALL_RE45_Pistol: Pistol_Base_F {
 		ACE_barrelTwist = 406;
 		ACE_barrelLength = 150;
-		ACE_overheating_mrbs = 1000;
-		ACE_overheating_slowdownFactor = 1;
-		ACE_overheating_allowSwapBarrel = 0;
-		ACE_overheating_dispersion = 0.75;
-		ACE_arsenal_hide = 0;
-		ACE_twistDirection = 1;
-		ace_overheating_closedBolt = 1;
 	};
 
 	class Rifle_Base_F;
