@@ -64,13 +64,17 @@ class CfgAmmo {
 	class M_Titan_AT;
 	class M_Titan_AA;
 	class JMSFALL_M_Archer_AT_F: M_Titan_AT {
+		irLock = 1;
+        laserLock = 1;
+        airLock = 0;
 		//? add ace_vehicle_damage_incendiary
+
 		class ace_missileguidance {
 			enabled = 1;
 
-			minDeflection = 0.00005;
-			maxDeflection = 0.05;
-			incDeflection = 0.00005;
+			minDeflection = 0.00025;
+			maxDeflection = 0.001;
+			incDeflection = 0.0001;
 
 			canVanillaLock = 1;
 
@@ -92,12 +96,16 @@ class CfgAmmo {
 		};
 	};
 	class JMSFALL_M_Archer_AA_F: M_Titan_AA {
+		irLock = 0;
+        laserLock = 0;
+        airLock = 1;
+
 		class ace_missileguidance {
 			enabled = 1;
 
-			minDeflection = 0.00005;
-			maxDeflection = 0.05;
-			incDeflection = 0.00005;
+			minDeflection = 0.00025;
+			maxDeflection = 0.001;
+			incDeflection = 0.0001;
 
 			canVanillaLock = 1;
 

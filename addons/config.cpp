@@ -16,9 +16,7 @@ class CfgPatches {
 		version=3.1400001;
 		versionStr="3.14.1.65";
 		versionAr[]={3,14,1,65};
-		ammo[] = {
-
-		};
+		ammo[] = {}; //? Needed?
 	};
 };
 
