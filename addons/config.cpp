@@ -5,18 +5,16 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 2.0599999;
 		requiredAddons[] = {
-			"ace_rearm",
-			"ace_refuel",
-			"ace_repair",
-			"ace_csw"
-		}; // Find out how to get FOT in here
+			"ace_common",
+			"JMSFALL_imc_mod",
+			"JMSFALL_militia_mod"
+		};
 		author="Siege"
 		authors[] = {"Siege"};
 		url="https://github.com/SiegeToaster/ace_compat_jm_fot/"
 		version=3.1400001;
 		versionStr="3.14.1.65";
 		versionAr[]={3,14,1,65};
-		ammo[] = {}; //? Needed?
 	};
 };
 
