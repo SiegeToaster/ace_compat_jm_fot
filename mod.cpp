@@ -1,5 +1,5 @@
-name = "ACE3 - JM's Fall of the Titans Compatability";
+name = "ACE3 Compat - JM's Fall of the Titans";
 author = "Siege";
 actionName = "GitHub";
-action = "https://github.com/SiegeToaster/FoT_ACE_Compat";
-overview = "ACE Compatability patch for JM's Fall of the Titans.";
+action = "https://github.com/SiegeToaster/ace_compat_jm_fot";
+overview = "ACE Compatability Patch for JM's Fall of the Titans.";
