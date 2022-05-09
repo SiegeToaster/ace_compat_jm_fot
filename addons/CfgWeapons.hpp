@@ -505,7 +505,7 @@ class CfgWeapons {
 				};
 				class Arms {
 					hitpointName="HitArms";
-					armor=1;
+					armor=4;
 					passThrough=0.2;
 				};
 				class Body {
@@ -551,7 +551,7 @@ class CfgWeapons {
 				};
 				class Arms {
 					hitpointName="HitArms";
-					armor=10;
+					armor=12;
 					passThrough=0.2;
 				};
 				class Body {
@@ -608,7 +608,7 @@ class CfgWeapons {
 		};
 	};
 
-		class JMSFALL_mil_heavyL_armor: Vest_Camo_Base {
+	class JMSFALL_mil_heavyL_armor: Vest_Camo_Base {
 		class ItemInfo: VestItem {
 			class HitpointsProtectionInfo {
 				class Head {
@@ -644,6 +644,926 @@ class CfgWeapons {
 				class Arms {
 					hitpointName="HitArms";
 					armor=3;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_pil_reaper_mil_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=10;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=26;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=26;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=26;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=18;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_pil_reaper_imc_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=10;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=26;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=26;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=26;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=18;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_pil_reaper_or_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=10;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=26;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=26;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=26;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=18;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_pil_stalker_mil_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=8;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=19;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_pil_stalker_holo_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=8;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=19;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_pil_light_mil_cap_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=5;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=5;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_pil_light_mil_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=5;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=5;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_pil_light_srs_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=5;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=5;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_pil_light_imc_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=5;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=24;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=5;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_mil_rifle_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=3;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=5;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=4;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_icm_rifleAlt_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=3;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=5;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=4;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_icm_eng_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=3;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=5;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=4;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_icm_engAlt_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=3;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=15;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=5;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=4;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_icm_heavy_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=5;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=22;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=22;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=22;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=17;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=6;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_icm_heavyAlt_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=5;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=22;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=22;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=22;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=17;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=6;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_icm_heavyAlt_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=5;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=22;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=22;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=22;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=17;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=8;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=6;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_icm_rto_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=3;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=13;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=13;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=13;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=10;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=5;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=2;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_icm_grenade_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=3;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=9;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=5;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=5;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_icm_grenadeL_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=3;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=16;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=16;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=9;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=5;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=5;
+					passThrough=0.2;
+				};
+				class Body {
+					hitpointName="HitBody";
+					passThrough=0.40000001;
+				};
+			};
+		};
+	};
+
+	class JMSFALL_icm_spectre_armor: Vest_Camo_Base {
+		class ItemInfo: VestItem {
+			class HitpointsProtectionInfo {
+				class Head {
+					hitpointName="HitHead";
+					armor=12;
+					passThrough=0.1;
+				};
+				class Diaphragm {
+					hitpointName="HitDiaphragm";
+					armor=30;
+					passThrough=0.40000001;
+				};
+				class Chest {
+					hitpointName="HitChest";
+					armor=30;
+					passThrough=0.40000001;
+				};
+				class Abdomen {
+					hitpointName="HitAbdomen";
+					armor=30;
+					passThrough=0.40000001;
+				};
+				class Pelvis {
+					hitpointName="HitPelvis";
+					armor=18;
+					passThrough=0.40000001;
+				};
+				class Neck {
+					hitpointName="HitNeck";
+					armor=10;
+					passThrough=0.2;
+				};
+				class Arms {
+					hitpointName="HitArms";
+					armor=10;
 					passThrough=0.2;
 				};
 				class Body {
