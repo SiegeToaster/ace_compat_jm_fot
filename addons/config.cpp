@@ -12,9 +12,9 @@ class CfgPatches {
 		author="Siege"
 		authors[] = {"Siege"};
 		url="https://github.com/SiegeToaster/ace_compat_jm_fot/"
-		version=3.1400001;
-		versionStr="3.14.1.65";
-		versionAr[]={3,14,1,65};
+		version=3.1500001;
+		versionStr="3.15.0.67";
+		versionAr[]={3,15,0,67};
 	};
 };
 
